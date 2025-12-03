@@ -1,6 +1,6 @@
 radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber > 2) {
-    	
+        basic.showIcon(IconNames.Sad)
     } else {
     	
     }
