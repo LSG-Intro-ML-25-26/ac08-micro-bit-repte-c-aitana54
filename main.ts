@@ -1,3 +1,6 @@
+radio.onReceivedNumber(function (receivedNumber) {
+	
+})
 input.onButtonPressed(Button.A, function () {
     radio.sendString("Hello world")
     radio.sendNumber(randint(1, 6))
