@@ -2,7 +2,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber > 2) {
         basic.showIcon(IconNames.Sad)
     } else {
-    	
+        basic.showIcon(IconNames.Happy)
     }
 })
 input.onButtonPressed(Button.A, function () {
