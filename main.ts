@@ -1,5 +1,9 @@
 radio.onReceivedNumber(function (receivedNumber) {
-	
+    if (receivedNumber > 2) {
+    	
+    } else {
+    	
+    }
 })
 input.onButtonPressed(Button.A, function () {
     radio.sendString("Hello world")
